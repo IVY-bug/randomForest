@@ -9,7 +9,7 @@
 #include "tree.h"
 #include <iostream>
 int tree::max_depth = 10;
-int tree::bag_n = 40;
+int tree::bag_n = 20;
 vector<vector<int>>* tree::data = nullptr;
 vector<int> tree::bagData = vector<int>();
 tree::tree() {

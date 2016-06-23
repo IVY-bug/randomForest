@@ -8,7 +8,7 @@ if __name__ == '__main__':
 	outf = 'data/trainData'
 	output(outf, data)
 
-	fname = 'data/test.txt'
+	fname = 'data/part2'
 	outf = 'data/testData'
 	toPredict = open(fname).readlines()
 	testData = []

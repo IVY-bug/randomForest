@@ -13,7 +13,7 @@
 #include "randint.h"
 #include "message.h"
 #include <mpi.h>
-#define TREEN 1000
+#define TREEN 50
 
 using namespace std;
 

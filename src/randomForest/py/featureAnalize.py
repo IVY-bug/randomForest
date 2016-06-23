@@ -14,7 +14,7 @@ def analyze(fname):
 	#for linen in f_map:
 	#	print "{0}\t{1}\n".format(linen, f_map[linen])
 def myfilter(data, th):
-	total = 200000
+	total = 100000
 	Min = th*total
 	Max = total - Min
 	ret = []

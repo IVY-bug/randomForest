@@ -3,7 +3,7 @@ import featureAnalize
 from featureAnalize import *
 
 def splitData(fname):
-	nline = 200000
+	nline = 100000
 	totalL = 2177020
 	itern = totalL/nline
 	f = open(fname)
@@ -20,7 +20,7 @@ def readData2(fname):
 	f = open(fname)
 	data = []
 	print "reading data from "+fname
-	featurec = myfilter(analyze(fname), 0.02)
+	featurec = myfilter(analyze(fname), 0.01)
 	realFeatures = []
 	for (u,v) in featurec:
 		realFeatures.append(u)
